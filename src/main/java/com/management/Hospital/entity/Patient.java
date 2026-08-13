@@ -7,6 +7,9 @@ import jakarta.persistence.*;
 public class Patient {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+
+	//add all the valid validation annotations to the properties
+
 	private Integer patientId;
 	private String patientName;
 	private String gender;
