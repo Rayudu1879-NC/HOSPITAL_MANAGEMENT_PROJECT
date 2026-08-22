@@ -51,6 +51,8 @@ public class Patient {
 	}
 	public void setDiagnosis(String diagnosis) {
 		this.diagnosis = diagnosis;
-	}	
-	
+	}
+
+
+	//this line is added newly1
 }
